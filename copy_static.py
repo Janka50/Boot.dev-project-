@@ -1,7 +1,7 @@
 import os
 import shutil
 
-def copy_recursive_directory(src, dest):
+def copy_recursive_directory(src='static', dest='docs'):
     """
     Recursively copies all files and directories from src to dest.
     Deletes dest first if it already exists to ensure a clean copy.

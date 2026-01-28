@@ -14,7 +14,7 @@ def main():
         "https://www.boot.dev"
     )
     
-    copy_recursive_directory("static", "public")
+    copy_recursive_directory("static", "docs")
     print("Static files copied Successfully...")
     
     

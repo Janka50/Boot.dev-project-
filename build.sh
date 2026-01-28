@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 src/main.py "/Boot.dev-project/"
+python3 main.py "/Boot.dev-project-/"
