@@ -1,6 +1,6 @@
 import unittest
-from textnode import TextNode, TextType
-from text_to_Nodes import text_to_textnodes
+from src.textnode import TextNode, TextType
+from src.text_to_Nodes import text_to_textnodes
 class TestTextToTextNodes(unittest.TestCase):
     def test_mixed_markdown(self):
         text = (

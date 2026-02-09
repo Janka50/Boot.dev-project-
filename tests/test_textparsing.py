@@ -1,6 +1,6 @@
 import unittest
-from textnode import TextNode, TextType
-from textparsing import split_nodes_delimiter
+from src.textnode import TextNode, TextType
+from src.textparsing import split_nodes_delimiter
 class TestSplitNodesDelimiter(unittest.TestCase):
     def test_single_code(self):
         node = TextNode("Use `code` here", TextType.TEXT)

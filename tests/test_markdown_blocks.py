@@ -1,5 +1,5 @@
 import unittest
-from markdownBlocks import markdown_to_blocks
+from src.markdownBlocks import markdown_to_blocks
 
 
 class TestMarkdownToBlocks(unittest.TestCase):

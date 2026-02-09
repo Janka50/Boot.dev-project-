@@ -1,6 +1,6 @@
 import unittest
-from block_type import block_to_block_type
-from BlockTypeI  import BlockType
+from src.block_type import block_to_block_type
+from src.BlockTypeI  import BlockType
 
 
 

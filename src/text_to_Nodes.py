@@ -1,9 +1,9 @@
-from src.splitNodes import split_nodes_images, split_nodes_links
+from helpers.splitNodes import split_nodes_images, split_nodes_links
 from src.textnode import TextNode, TextType
 from src.textparsing import split_nodes_delimiter
 from src.htmlnode import LeafNode  # LeafNode represents a final HTML element like <b>, <i>, <code>
 from src.textnode import TextNode, TextType
-from src.splitNodes import split_nodes_images, split_nodes_links
+from helpers.splitNodes import split_nodes_images, split_nodes_links
 
 
 def text_to_textnodes(text):

@@ -1,6 +1,6 @@
 import unittest
-from markdownImages import extract_markdown_links 
-from textnode import TextNode# replace 'your_module' with your actual filename
+from src.markdownImages import extract_markdown_links 
+from src.textnode import TextNode# replace 'your_module' with your actual filename
 
 class TestMarkdownLinks(unittest.TestCase):
     def test_single_link(self):

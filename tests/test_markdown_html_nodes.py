@@ -1,4 +1,4 @@
-from markdown_html_nodes import markdown_to_html_node
+from src.markdown_html_nodes import markdown_to_html_node
 def test_paragraphs(self):
     md = """
 This is **bolded** paragraph

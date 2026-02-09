@@ -1,8 +1,8 @@
 import unittest
-from textnode import TextNode, TextType
-from markdownImages import extract_markdown_links
-from splitNodes import split_nodes_images,  split_nodes_links
-from textnode import TextType as t
+from src.textnode import TextNode, TextType
+from src.markdownImages import extract_markdown_links
+from helpers.splitNodes import split_nodes_images,  split_nodes_links
+from src.textnode import TextType as t
 
 class TestSplitNodesImage(unittest.TestCase):
     def test_single_image(self):
